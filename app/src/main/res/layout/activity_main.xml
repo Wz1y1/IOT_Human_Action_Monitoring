@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="@drawable/wave">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- High contrast and purple theme for buttons -->
+
+        <!-- ... other buttons with similar style ... -->
+
+        <Button
+            android:id="@+id/record_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:text="Record data"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ble_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:text="Connect sensors"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/record_button" />
+
+        <Button
+            android:id="@+id/history_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:text="View History"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ble_button" />
+
+        <Button
+            android:id="@+id/live_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:text="Choosing Tasks to see Prediction"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/history_button" />
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/logout_button_background_grey"
+            android:elevation="4dp"
+            android:text="Logout"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:id="@+id/coordinatorLayout"-->
+<!--tools:context=".MainActivity"-->
+<!--android:padding="16dp"-->
+<!--android:background="#F0F0F0"> &lt;!&ndash; A softer shade for the background for a more modern look &ndash;&gt;-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/constraintLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:text="I want to"-->
+<!--            android:textColor="#606060"-->
+<!--            android:textSize="34sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        &lt;!&ndash; Soft shadows and rounded corners for buttons &ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/record_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:background="@drawable/button_background"-->
+<!--            android:elevation="4dp"-->
+<!--            android:text="Record data"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+
+<!--        &lt;!&ndash; Repeat the button style for other buttons &ndash;&gt;-->
+<!--        &lt;!&ndash; ... other buttons with similar style ... &ndash;&gt;-->
+
+<!--        <Button-->
+<!--            android:id="@+id/ble_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="232dp"-->
+<!--            android:background="@drawable/button_background"-->
+<!--            android:elevation="4dp"-->
+<!--            android:text="Connect sensors"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/history_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="88dp"-->
+<!--            android:background="@drawable/button_background"-->
+<!--            android:elevation="4dp"-->
+<!--            android:text="View History"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/logout_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@drawable/logout_button_background"-->
+<!--            android:elevation="4dp"-->
+<!--            android:text="Logout"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/live_button"-->
+<!--        android:layout_width="394dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="236dp"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        android:elevation="4dp"-->
+<!--        android:text="Watch live processing"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_anchor="@+id/live_button"-->
+<!--        app:layout_anchorGravity="top|center" />-->
+<!--</androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:id="@+id/coordinatorLayout"-->
+    <!--    tools:context=".MainActivity"-->
+    <!--    android:padding="16dp"-->
+    <!--    android:background="#FAFAFA"> &lt;!&ndash; Light grey background &ndash;&gt;-->
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/textView2"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="I want to"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#212121"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:layout_marginTop="32dp"/>-->
+
+    <!--        &lt;!&ndash; Define a softer purple and grey for buttons in colors.xml &ndash;&gt;-->
+    <!--        <Button-->
+    <!--            android:id="@+id/record_button"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Record data"-->
+    <!--            android:background="@color/soft_purple"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView2"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/live_button"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Watch live processing"-->
+    <!--            android:background="@color/soft_purple"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/record_button"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/ble_button"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Connect sensors"-->
+    <!--            android:background="@color/soft_purple"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/live_button"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/history_button"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="View History"-->
+    <!--            android:background="@color/soft_purple"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/ble_button"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/logout_button"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Logout"-->
+    <!--            android:background="@color/dark_grey"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        android:layout_marginEnd="16dp"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--</androidx.coordinatorlayout.widget.CoordinatorLayout>-->

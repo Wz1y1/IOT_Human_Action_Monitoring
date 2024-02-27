@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wave"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Pick Your Time Period"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerTimeRange"
+        android:layout_width="match_parent"
+        android:minHeight="50dp"
+        android:popupBackground="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonPickDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Date"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewDateRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Confirm and View History"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/wave"-->
+<!--    android:padding="16dp">-->
+
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinnerTimeRange"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="8dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonPickDate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/colorWhite"-->
+<!--        android:text="Pick Date"-->
+<!--        android:layout_marginBottom="8dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewDateRange"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="18sp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonViewData"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Confirm and View History"-->
+<!--        android:textColor="@color/colorWhite" />-->
+
+<!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/wave"-->
+<!--    android:padding="16dp">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonPickDate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/colorWhite"-->
+<!--        android:text="Pick Date" />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinnerTimeRange"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonViewData"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="View Data"-->
+<!--        android:textColor="@color/colorWhite" />-->
+
+<!--</LinearLayout>-->
